@@ -1,0 +1,24 @@
+# VM disks and images
+*.vdi
+*.vmdk
+*.ova
+*.iso
+
+# Raw OPNsense config exports
+config-*.xml
+
+# Raw lab notes
+notes.md
+
+# Course handouts and submitted Word docs
+*.pdf
+*.docx
+
+# Packet captures, except trimmed ones
+*.pcap
+*.pcapng
+!*-trimmed.pcapng
+
+# Windows junk
+Thumbs.db
+desktop.ini
