@@ -39,25 +39,10 @@ VirtualBox 7.2.16 on a Windows 11 host.
 
 
 ```mermaid
-
 flowchart LR
-
-&#x20;   router\["Home router / Internet"]
-
-&#x20;   fw\["OPNsense 26.7"]
-
-&#x20;   lan\["Kali-Client<br/>192.168.10.179"]
-
-&#x20;   dmz\["Kali-DMZ<br/>172.16.10.50"]
-
-
-
-&#x20;   router ---|"em0 WAN (bridged)"| fw
-
-&#x20;   fw ---|"em2 LAN 192.168.10.1<br/>IntNet-LAN"| lan
-
-&#x20;   fw ---|"em1 OPT1/DMZ 172.16.10.1<br/>IntNet-DMZ"| dmz
-
+    router["Home router / Internet"] ---|"em0 WAN (bridged)"| fw["OPNsense 26.7"]
+    fw ---|"em2 LAN 192.168.10.1<br/>IntNet-LAN"| lan["Kali-Client<br/>192.168.10.179"]
+    fw ---|"em1 OPT1/DMZ 172.16.10.1<br/>IntNet-DMZ"| dmz["Kali-DMZ<br/>172.16.10.50"]
 ```
 
 
