@@ -34,7 +34,7 @@ flowchart LR
 | 2 | Firewall Rule Design | Inter-zone policy (LAN/DMZ/WAN), DNS rules | Pending |
 | 3 | NGFW (Zenarmor) | Layer 7 application and web filtering | Pending |
 | 4 | Suricata IDS/IPS | Rulesets, policies, detection vs. prevention | Pending |
-| 5 | Suricata Rules for Nmap | Custom signatures for SYN/XMAS/FIN/NULL/UDP scans | Pending |
+| 5 | [Suricata Rules for Nmap](lab05-suricata-nmap-rules/) | Custom and community signatures detecting Nmap scans | Done |
 | 6 | DNS Redirect | Destination NAT forcing DNS through the firewall | Pending |
 
 ## How I Document Each Lab
