@@ -31,7 +31,7 @@ flowchart LR
 |---|---|---|---|
 | 0 | Environment Setup | VirtualBox networking, OPNsense install, Kali clients | Pending |
 | 1 | Firewall Rules | Aliases, rule actions, admin SSH access rule | Pending |
-| 2 | Firewall Rule Design | Inter-zone policy (LAN/DMZ/WAN), DNS rules | Pending |
+| 2 | [Firewall Rules Between Zones](lab02-firewall-rule-design/) | Inter-zone policy (LAN/DMZ/WAN), DNS rule design | Partial, redo planned |
 | 3 | NGFW (Zenarmor) | Layer 7 application and web filtering | Pending |
 | 4 | Suricata IDS/IPS | Rulesets, policies, detection vs. prevention | Pending |
 | 5 | [Suricata Rules for Nmap](lab05-suricata-nmap-rules/) | Custom and community signatures detecting Nmap scans | Done |
